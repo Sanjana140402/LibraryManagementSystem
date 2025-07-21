@@ -1,0 +1,89 @@
+:host {
+  display: block;
+  padding: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+}
+
+/* Headings */
+h2 {
+  color: #333;
+  margin-bottom: 15px;
+}
+
+/* Input fields */
+input {
+  padding: 8px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+  max-width: 300px;
+  box-sizing: border-box;
+}
+
+/* Buttons */
+button {
+  padding: 8px 12px;
+  margin-right: 5px;
+  border: none;
+  border-radius: 4px;
+  background-color: #0078d4;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #005a9e;
+}
+
+/* Table styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+/* First row styling */
+table tr:first-child {
+  background-color: black;
+  color: white;
+}
+
+tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Responsive layout */
+@media (max-width: 600px) {
+  input {
+    max-width: 100%;
+  }
+
+  table, th, td {
+    font-size: 14px;
+  }
+
+  button {
+    padding: 6px 10px;
+    font-size: 14px;
+  }
+}
+.header-row {
+  background-color: black;
+  color: white;
+}
